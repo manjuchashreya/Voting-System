@@ -31,7 +31,12 @@ public:
   }
   
   // TODO Insert Your endpoints here !!!
-  
+  ENDPOINT("GET", "/login/voter", voterLogin) {
+    auto voter = VoterOut::createShared();
+    voter -> voterId = 45;
+
+    return createDtoResponse(Status::CODE_200, voter);
+  }
 };
 
 #include OATPP_CODEGEN_END(ApiController) //<-- End Codegen

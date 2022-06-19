@@ -19,6 +19,16 @@ class MyDto : public oatpp::DTO {
   
 };
 
+class VoterOut : public oatpp::DTO {
+  DTO_INIT(VoterOut, DTO)
+
+  DTO_FIELD(Int32, voterId);
+};
+
+// class VoterIn : public oatpp::DTO {
+//   DTO_INIT(VoterIn, DTO)
+// }
+
 #include OATPP_CODEGEN_END(DTO)
 
 #endif /* DTOs_hpp */
