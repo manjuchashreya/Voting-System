@@ -1,0 +1,101 @@
+# Prerequisites
+./oatpp-starter/*.d
+
+# Compiled Object files
+./oatpp-starter/*.slo
+./oatpp-starter/*.lo
+./oatpp-starter/*.o
+./oatpp-starter/*.obj
+
+# Precompiled Headers
+./oatpp-starter/*.gch
+./oatpp-starter/*.pch
+
+# Compiled Dynamic libraries
+./oatpp-starter/*.so
+./oatpp-starter/*.dylib
+./oatpp-starter/*.dll
+
+# Fortran module files
+./oatpp-starter/*.mod
+./oatpp-starter/*.smod
+
+# Compiled Static libraries
+./oatpp-starter/*.lai
+./oatpp-starter/*.la
+./oatpp-starter/*.a
+./oatpp-starter/*.lib
+
+# Executables
+./oatpp-starter/*.exe
+./oatpp-starter/*.out
+./oatpp-starter/*.app
+
+# custom build
+./oatpp-starter/build/
+./oatpp-starter/main/build/
+
+# idea
+./oatpp-starter/.idea/
+./oatpp-starter/cmake-build-debug/
+./oatpp-starter/*/cmake-build-debug/
+
+#Mac
+
+./oatpp-starter/**/.DS_Store
+
+./oatpp-starter/build
+
+.vscode
+
+# Prerequisites
+./oatpp-starter/oatpp/*.d
+
+# Compiled Object files
+./oatpp-starter/oatpp/*.slo
+./oatpp-starter/oatpp/*.lo
+./oatpp-starter/oatpp/*.o
+./oatpp-starter/oatpp/*.obj
+
+# Precompiled Headers
+./oatpp-starter/oatpp/*.gch
+./oatpp-starter/oatpp/*.pch
+
+# Compiled Dynamic libraries
+./oatpp-starter/oatpp/*.so
+./oatpp-starter/oatpp/*.dylib
+./oatpp-starter/oatpp/*.dll
+
+# Fortran module files
+./oatpp-starter/oatpp/*.mod
+./oatpp-starter/oatpp/*.smod
+
+# Compiled Static libraries
+./oatpp-starter/oatpp/*.lai
+./oatpp-starter/oatpp/*.la
+./oatpp-starter/oatpp/*.a
+./oatpp-starter/oatpp/*.lib
+
+# Executables
+./oatpp-starter/oatpp/*.exe
+./oatpp-starter/oatpp/*.out
+./oatpp-starter/oatpp/*.app
+
+# Mac
+
+./oatpp-starter/oatpp/**/.DS_Store
+
+# idea
+./oatpp-starter/oatpp/.idea/
+./oatpp-starter/oatpp/cmake-build-debug/
+
+# local build
+./oatpp-starter/oatpp/build/
+./oatpp-starter/oatpp/build-xcode/
+./oatpp-starter/oatpp/srt/build/
+./oatpp-starter/oatpp/test/build/
+
+# VS
+./oatpp-starter/oatpp/.vs/
+./oatpp-starter/oatpp/out/
+./oatpp-starter/oatpp/CMakeSettings.json
